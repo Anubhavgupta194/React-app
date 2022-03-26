@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner-style{
+  width: 98.8vw;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: relative;
+  height:70vh;
+  color: white;
+} 
+.banner-img{
+  height: 70vh;
+  width: 98.8vw;
+}
+.banner-card-title{
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 9vh;
+}
+.banner-text{
+  position:absolute;
+ margin-top: 46vh;
+ margin-left: 9vh;
+ overflow: hidden;
+ margin-right: 10vw;
+ height: 5rem;
+ color: darkgrey;
+}
+
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem;
+  justify-content: center;
+  
+} 
+ .movie-style{
+  width: 20vw;
+  margin: 1rem;
+  color: white;
+  position: relative;
+  
+}
+.movie-card-title{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  
+}
+
+
+
+  .movie-button{
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+  }
+.movie-img{
+  height:45vh;
+  width:20vw
+}
+
+.favourite-geners{
+  
+  padding: 3rem;
+   margin-top: 2rem;
+  
+}
+.fav-table{
+ 
+  overflow: auto;
+
+}
+
+.input-div{
+  display: flex;
+  margin-top: 2rem;
+  
+
+  }
+  .input-cont{
+    padding: 3rem;
+  }
+@media screen and (max-width:400px) {
+  .banner-style{
+    width: 100vw;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    position: relative;
+    height:30vh;
+    color: white;
+  } 
+  .banner-img{
+    height: 30vh;
+    width: 100vw;
+  }
+  .banner-card-title{
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 5vw;
+  }
+  .banner-text{
+    position:absolute;
+   margin-top: 17vh;
+   margin-left: 5vw;
+   margin-right: 4vw;
+   color: darkgrey;
+   height: 2rem;
+  }
+  .movie-style{
+    width: 40vw;
+    margin: 0.1rem;
+  }
+  .movie-button{
+    width: 80%;
+  }
+  .movie-img{
+    width: 40vw;
+  }
+  .movie-button{
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+  }
+}
